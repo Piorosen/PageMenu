@@ -9,6 +9,7 @@
 import UIKit
 
 extension CAPSPageMenu : UIGestureRecognizerDelegate {
+    @objc
     func handleMenuItemTap(_ gestureRecognizer : UITapGestureRecognizer) {
         let tappedPoint : CGPoint = gestureRecognizer.location(in: menuScrollView)
         
