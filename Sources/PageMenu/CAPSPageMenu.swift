@@ -33,8 +33,8 @@ open class CAPSPageMenu: UIViewController {
     
     // MARK: - Properties
 
-    let menuScrollView = UIScrollView()
-    let controllerScrollView = UIScrollView()
+    public let menuScrollView = UIScrollView()
+    public let controllerScrollView = UIScrollView()
     var controllerArray : [UIViewController] = []
     var menuItems : [MenuItemView] = []
     var menuItemWidths : [CGFloat] = []
