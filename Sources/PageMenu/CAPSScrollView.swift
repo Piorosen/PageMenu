@@ -9,7 +9,7 @@ import UIKit
 
 open class CAPSScrollView: UIScrollView {
     private var _exclusiveView = [UIView]()
-    public var exclusiveView: [UIView] {
+    var exclusiveView: [UIView] {
         get {
             return _exclusiveView
         }
